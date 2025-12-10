@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Appium Test Suite">
+    <test name="Mobile Tests">
+        <classes>
+            <!-- Calculator tests -->
+            <class name="com.testqua31.CalculatorTests"/>
+            
+            <!-- Login tests -->
+            <class name="com.testqua31.LoginTests"/>
+            
+            <!-- Settings tests -->
+            <class name="com.testqua31.SettingsTests"/>
+        </classes>
+    </test>
+</suite>
